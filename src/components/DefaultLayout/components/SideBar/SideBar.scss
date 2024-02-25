@@ -1,0 +1,80 @@
+.userinfor{
+    width: 100%;
+    padding: 10px 10px;
+    position: relative;
+    &__left{
+        display: inline-block;
+        img{
+            width: 100%;
+            max-width: 45px;
+            height: auto;
+            border-radius: 50%;
+        }
+    }
+    &__right{
+        position: absolute;
+        left: 70px;
+        top: 12px;
+        display: inline-block;
+        &--name{
+            color: white;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        &--status{
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.87);
+            font-size: 10px;
+            margin-left: 15px;
+            font-weight: 500;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                top: 2px;
+                left: -15px;
+                background-color: rgba(0, 128, 0, 0.699);
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.search{
+    text-align: center;
+    width: 210px;
+    margin: 10px 5px;
+    input{
+        background-color: #374850;
+        border-color: #374850;
+        height: 35px;
+        border: none;
+        &::placeholder {
+            color: #999;
+        }
+    }
+    .ant-input-group-addon{
+        background-color: #374850;
+        border: 10px solid #374850;
+    }
+    button{
+        background-color: #374850;
+        border: none;
+        svg{
+            color: #999;
+        }
+    }
+}
+
+.sidebarmenu{
+    width: 100%;
+    height: auto;
+        &__title{
+        color: #4b646f;
+        background-color: #1a2226;
+        padding: 10px 25px 10px 15px;
+        font-size: 11px;
+    }
+}

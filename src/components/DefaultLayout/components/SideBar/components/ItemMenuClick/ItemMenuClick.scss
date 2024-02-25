@@ -1,0 +1,56 @@
+.itemmenuclick{
+    &__nameicon{
+        display: inline;
+    }
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.089);
+        i:nth-child(3){
+            color: white;
+        }
+        i:nth-child(1){
+            color: white;
+        }
+        span{
+            color: white;
+        }
+    }
+    i{
+        color: #b8c7ce;
+        padding: 15px 10px;
+        font-size: 14px;
+        &:nth-child(1){
+            margin-left: 5px;
+        }
+        &:nth-child(2){
+            font-size: 10px;
+            float: right;
+        }
+    }
+    
+    span{
+        color: #b8c7ce;
+        font-size: 13px;
+    }
+    &__treeview{
+        list-style-type: none;
+        padding: 0;
+        li{
+            height: 29px;
+            margin-left: 7px;
+            &:hover{
+                a{
+                    color: white;
+                }
+            }
+            i{
+                font-size: 12px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 13px;
+                color: #8aa4af;
+            }
+        }
+    }
+}

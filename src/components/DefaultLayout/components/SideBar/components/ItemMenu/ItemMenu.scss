@@ -1,0 +1,49 @@
+.itemmenu{
+    &__nameicon{
+        span{
+            color: #b8c7ce;
+            font-size: 13px;
+        }
+        padding: 3px;
+    }
+    display: flex;
+    justify-content: space-between;
+    .badge{
+        margin-top: 13px;
+        margin-right: 5px;
+        &:last-child{
+            margin-right: 10px;
+        }
+    }
+    .bg-danger{
+        font-size: 9px;
+    }
+    .bg-primary{
+        font-size: 9px;
+    }
+    .bg-warning{
+        font-size: 9px;
+    }
+    .bg-success{
+        font-size: 9px;
+    }
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.089);
+        span{
+            color: white;
+        }
+    }
+    i{
+        color: #b8c7ce;
+        padding: 13px 10px;
+        font-size: 14px;
+        &:nth-child(1){
+            margin-left: 5px;
+        }
+        &:nth-child(2){
+            font-size: 13px;
+            margin-left: 75px;
+        }
+    }
+}
